@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		85106FEB218294A7004AE4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85106FEA218294A7004AE4FD /* AppDelegate.swift */; };
-		85106FED218294A7004AE4FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85106FEC218294A7004AE4FD /* ViewController.swift */; };
+		85106FED218294A7004AE4FD /* EntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85106FEC218294A7004AE4FD /* EntryVC.swift */; };
 		85106FF0218294A7004AE4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85106FEE218294A7004AE4FD /* Main.storyboard */; };
 		85106FF2218294AA004AE4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85106FF1218294AA004AE4FD /* Assets.xcassets */; };
 		85106FF5218294AA004AE4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85106FF3218294AA004AE4FD /* LaunchScreen.storyboard */; };
 		85107000218294AA004AE4FD /* Learn2writeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85106FFF218294AA004AE4FD /* Learn2writeTests.swift */; };
 		8510700B218294AA004AE4FD /* Learn2writeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510700A218294AA004AE4FD /* Learn2writeUITests.swift */; };
+		85391D8A21862AE8006F8AE1 /* StepsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85391D8921862AE8006F8AE1 /* StepsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		85106FE7218294A7004AE4FD /* Learn2write.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn2write.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85106FEA218294A7004AE4FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85106FEC218294A7004AE4FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85106FEC218294A7004AE4FD /* EntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryVC.swift; sourceTree = "<group>"; };
 		85106FEF218294A7004AE4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85106FF1218294AA004AE4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85106FF4218294AA004AE4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		85107006218294AA004AE4FD /* Learn2writeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learn2writeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8510700A218294AA004AE4FD /* Learn2writeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn2writeUITests.swift; sourceTree = "<group>"; };
 		8510700C218294AA004AE4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85391D8921862AE8006F8AE1 /* StepsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				85106FEA218294A7004AE4FD /* AppDelegate.swift */,
-				85106FEC218294A7004AE4FD /* ViewController.swift */,
+				85106FEC218294A7004AE4FD /* EntryVC.swift */,
 				85106FEE218294A7004AE4FD /* Main.storyboard */,
 				85106FF1218294AA004AE4FD /* Assets.xcassets */,
 				85106FF3218294AA004AE4FD /* LaunchScreen.storyboard */,
 				85106FF6218294AA004AE4FD /* Info.plist */,
+				85391D8921862AE8006F8AE1 /* StepsVC.swift */,
 			);
 			path = Learn2write;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85106FED218294A7004AE4FD /* ViewController.swift in Sources */,
+				85106FED218294A7004AE4FD /* EntryVC.swift in Sources */,
+				85391D8A21862AE8006F8AE1 /* StepsVC.swift in Sources */,
 				85106FEB218294A7004AE4FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V6JSDQ22L;
 				INFOPLIST_FILE = Learn2write/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V6JSDQ22L;
 				INFOPLIST_FILE = Learn2write/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
